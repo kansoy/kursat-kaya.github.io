@@ -2,6 +2,12 @@
 
 [English portfolio](https://kursatkaya.com/) · [Türkçe portfolyo](https://kursatkaya.com/tr/) · [English CV](https://kursatkaya.com/assets/kursat-kaya-cv-en.pdf) · [Türkçe özgeçmiş](https://kursatkaya.com/assets/kursat-kaya-cv-tr.pdf)
 
+## Accept your handover
+
+Sign in to your GitHub account and accept both repository transfers from GitHub’s emails. This `.github.io` repository publishes your website. The separate private repository holds your original documents and artwork. To publish immediately after accepting, open **Actions → Publish portfolio → Run workflow** and select `main`.
+
+GitHub’da kendi hesabına giriş yapıp e-postalardaki iki depo devrini kabul et. Siteyi bu `.github.io` deposundan güncelleyebilirsin. Orijinal dosyaların ayrı bir özel depoda bulunur.
+
 ## Edit your website and CV
 
 1. Open the [English text](content/en.json), [Turkish text](content/tr.json) or [profile details](content/profile.json). The profile contains your email address, social links and programming languages.
@@ -18,4 +24,4 @@ Styles, icons and the portfolio portrait are in [`site/assets`](site/assets). Th
 
 With Node.js 24 and Google Chrome installed, run `npm ci` and `npm run build`. To preview the generated site, run `python3 -m http.server 8000 --directory site` and open `http://localhost:8000`. The optional `CHROME_BIN` environment variable selects a particular Chrome installation.
 
-Fatih manages the domain registration, DNS and email forwarding at Cloudflare.
+Fatih manages the domain registration, DNS and email forwarding at Cloudflare. GitHub Pages serves the website. In **Settings → Pages**, use **GitHub Actions** as the source and leave GitHub’s **Custom domain** field empty. Cloudflare already connects the `.com` address to the site.
