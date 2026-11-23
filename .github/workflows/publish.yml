@@ -22,10 +22,21 @@ jobs:
       - run: npm run build
         env:
           CHROME_BIN: /usr/bin/google-chrome
-      - name: Save the built website and CVs
-        uses: actions/upload-artifact@v7
+      - name: Package the website
+        uses: actions/upload-pages-artifact@v5
         with:
-          name: portfolio
           path: site/
-          retention-days: 7
-          if-no-files-found: error
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    steps:
+      - name: Publish to GitHub Pages
+        id: publish
+        uses: actions/deploy-pages@v5

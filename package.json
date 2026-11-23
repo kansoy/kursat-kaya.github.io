@@ -11,5 +11,6 @@
   "devDependencies": {
     "puppeteer-core": "25.18.1",
     "sirv": "3.0.2"
-  }
+  },
+  "homepage": "https://kursatkaya.com"
 }

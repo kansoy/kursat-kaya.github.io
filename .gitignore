@@ -1,3 +1,5 @@
 node_modules/
 .DS_Store
 .print/
+site/portfolio-build.json
+site/assets/m-kursat-kaya-cv-*.pdf

@@ -1,5 +1,5 @@
 import { once } from 'node:events';
-import { mkdtemp, rm } from 'node:fs/promises';
+import { copyFile, mkdtemp, rm, writeFile } from 'node:fs/promises';
 import { createServer } from 'node:http';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
@@ -16,6 +16,16 @@ try {
   server.listen(0, '127.0.0.1');
   await once(server, 'listening');
   await render(`http://127.0.0.1:${server.address().port}/`, printDirectory);
+  for (const language of ['en', 'tr']) {
+    const cv = `kursat-kaya-cv-${language}.pdf`;
+    await copyFile(join(site, 'assets', cv), join(site, 'assets', `m-${cv}`));
+  }
+  const build = {
+    repositoryId: process.env.GITHUB_REPOSITORY_ID || '1468966983',
+    revision: process.env.GITHUB_SHA || 'local',
+    domain: 'kursatkaya.com'
+  };
+  await writeFile(join(site, 'portfolio-build.json'), JSON.stringify(build) + '\n');
 } finally {
   if (server.listening) await new Promise(resolve => server.close(resolve));
   await rm(printDirectory, { recursive: true, force: true });
