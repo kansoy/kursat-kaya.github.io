@@ -1,0 +1,26 @@
+[
+  {
+    "id": "xy",
+    "formula": "x = sin(3θ + φ),   y = sin(2θ)",
+    "source": "https://www.tek.com/en/support/faqs/does-tds1000-2000-series-have-xy-display-format-addition-yt",
+    "publisher": "Tektronix"
+  },
+  {
+    "id": "fourier",
+    "formula": "v(t) ≈ (4/π) Σ sin(kωt)/k",
+    "source": "https://web.mit.edu/6.003/F11/www/handouts/lec14.pdf",
+    "publisher": "MIT EECS"
+  },
+  {
+    "id": "rc",
+    "formula": "v(t) = V[1 − exp(−t/RC)]",
+    "source": "https://circuits.mit.edu/S23/psets/07/prelab",
+    "publisher": "MIT"
+  },
+  {
+    "id": "faraday",
+    "formula": "ε = −N dΦ/dt",
+    "source": "https://ocw.mit.edu/courses/8-02t-electricity-and-magnetism-spring-2005/resources/cha10faraday_law/",
+    "publisher": "MIT OpenCourseWare"
+  }
+]

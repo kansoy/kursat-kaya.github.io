@@ -1,0 +1,15 @@
+{
+  "name": "kursat-kaya-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node source/build-site.mjs"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "25.18.1",
+    "sirv": "3.0.2"
+  }
+}

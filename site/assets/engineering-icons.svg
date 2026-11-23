@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<symbol id="mark" viewBox="0 0 32 32" fill="none">
+<path d="M5 25V7M5 18H11L23 6M12 17L24 26" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+<path d="M7.1 4.99999C7.1 6.15979 6.1598 7.09999 5 7.09999C3.8402 7.09999 2.9 6.15979 2.9 4.99999C2.9 3.8402 3.8402 2.89999 5 2.89999C6.1598 2.89999 7.1 3.8402 7.1 4.99999Z" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+<path d="M27.1 4.99999C27.1 6.15979 26.1598 7.09999 25 7.09999C23.8402 7.09999 22.9 6.15979 22.9 4.99999C22.9 3.8402 23.8402 2.89999 25 2.89999C26.1598 2.89999 27.1 3.8402 27.1 4.99999Z" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+<path d="M28.1 27C28.1 28.1598 27.1598 29.1 26 29.1C24.8402 29.1 23.9 28.1598 23.9 27C23.9 25.8402 24.8402 24.9 26 24.9C27.1598 24.9 28.1 25.8402 28.1 27Z" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+</symbol>
+<symbol id="circuit" viewBox="0 0 32 32" fill="none">
+<path d="M6 7.5C6 8.60457 5.10457 9.5 4 9.5C2.89543 9.5 2 8.60457 2 7.5C2 6.39543 2.89543 5.5 4 5.5C5.10457 5.5 6 6.39543 6 7.5Z" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+<path d="M30 7.5C30 8.60457 29.1046 9.5 28 9.5C26.8954 9.5 26 8.60457 26 7.5C26 6.39543 26.8954 5.5 28 5.5C29.1046 5.5 30 6.39543 30 7.5Z" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+<path d="M6 7.5H9L10.5 4.5L13.3 10.5L16.1 4.5L18.9 10.5L20.4 7.5H26M23 7.5V15.5M18.5 15.5H27.5M18.5 19H27.5M23 19V24M18.5 24H27.5M20.3 27H25.7" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+</symbol>
+<symbol id="chip" viewBox="0 0 32 32" fill="none">
+<path d="M10 8H22C23.1046 8 24 8.89543 24 10V22C24 23.1046 23.1046 24 22 24H10C8.89543 24 8 23.1046 8 22V10C8 8.89543 8.89543 8 10 8Z" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+<path d="M13 12H19C19.5523 12 20 12.4477 20 13V19C20 19.5523 19.5523 20 19 20H13C12.4477 20 12 19.5523 12 19V13C12 12.4477 12.4477 12 13 12Z" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+<path d="M12 4V8M16 4V8M20 4V8M12 24V28M16 24V28M20 24V28M4 12H8M4 16H8M4 20H8M24 12H28M24 16H28M24 20H28" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+</symbol>
+<symbol id="signal" viewBox="0 0 32 32" fill="none">
+<path d="M3 23.5H29M4 19.8H7.5C9.5 19.8 9.7 7 12.7 7C15.4 7 16.4 17.7 18.7 17.7C20.8 17.7 21.5 11.4 23.6 11.4C25 11.4 25.6 14.6 27.5 14.6H29" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+</symbol>
+<symbol id="download" viewBox="0 0 32 32" fill="none">
+<path d="M16 4V18M10 12.5L16 18.5L22 12.5M6 21V26H26V21" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+</symbol>
+<symbol id="mail" viewBox="0 0 32 32" fill="none">
+<path d="M6 6.5H26C27.3807 6.5 28.5 7.61929 28.5 9V23C28.5 24.3807 27.3807 25.5 26 25.5H6C4.61929 25.5 3.5 24.3807 3.5 23V9C3.5 7.61929 4.61929 6.5 6 6.5Z" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+<path d="M5 9L16 17L27 9" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+</symbol>
+<symbol id="external" viewBox="0 0 32 32" fill="none">
+<path d="M8 24L24 8M24 21.5V8H10.5" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+</symbol>
+<symbol id="scope" viewBox="0 0 32 32" fill="none">
+<path d="M5.5 5H26.5C27.8807 5 29 6.11929 29 7.5V21.5C29 22.8807 27.8807 24 26.5 24H5.5C4.11929 24 3 22.8807 3 21.5V7.5C3 6.11929 4.11929 5 5.5 5Z" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+<path d="M6 15H10L12.2 9.79999L15.9 20L19.5 13H25M13 24V27M19 24V27M10 27H22" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/>
+</symbol>
+</svg>

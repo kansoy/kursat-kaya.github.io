@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kursatkaya.com/sitemap.xml

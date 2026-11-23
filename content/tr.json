@@ -1,0 +1,107 @@
+{
+  "title": "Kursat Kaya | Elektrik-Elektronik Mühendisliği",
+  "description": "Karabük Üniversitesi Elektrik-Elektronik Mühendisliği son sınıf öğrencisi. Gömülü sistemler, devre simülasyonu ve donanım testi. Etkileşimli sinyal laboratuvarını ve özgeçmişimi inceleyebilirsiniz.",
+  "skip": "İçeriğe geç",
+  "nav": "Ana menü",
+  "languages": "Dil",
+  "menu": "Menü",
+  "bench": "Sinyal Laboratuvarı",
+  "practice": "Teknik Deneyim",
+  "profile": "Eğitim",
+  "contact": "İletişim",
+  "field": "Elektrik-Elektronik Mühendisliği",
+  "stage": "Yeni mezun pozisyonlarına açığım",
+  "intro": "Karabük Üniversitesi Elektrik-Elektronik Mühendisliği son sınıf öğrencisiyim. Gömülü sistemler, elektronik tasarım veya donanım testi alanında çalışmak istiyorum.",
+  "download": "Özgeçmişi indir",
+  "getInTouch": "İletişime geç",
+  "cvLanguage": "Türkçe PDF",
+  "heroIntro": "Karabük Üniversitesi son sınıf öğrencisiyim. Gömülü sistemler, devre tasarımı ve donanım testi üzerine çalışıyorum.",
+  "benchIntro": "Bir model seçin ve giriş değerini değiştirerek dalga biçimini inceleyin.",
+  "device": "Osiloskop",
+  "theoryLabel": "Model",
+  "modelGroup": "Sinyal modeli seç",
+  "plot": "Benzetim sonucu oluşan sinyal grafiği",
+  "run": "Taramayı başlat",
+  "stop": "Taramayı durdur",
+  "fallback": "Modelleri ayarlamak için JavaScript’i etkinleştirin.",
+  "notes": "Teorik Açıklama",
+  "read": "Kaynak",
+  "models": [
+    {
+      "short": "Lissajous",
+      "title": "Lissajous Eğrisi",
+      "mode": "X–Y görünümü",
+      "label": "Faz farkı",
+      "context": "Frekans oranı 3∶2",
+      "desc": "İki sinüzoidal gerilim, yatay ve düşey eksenleri ayrı ayrı belirler. Parlak eğri seçilen fazı, daha soluk eğriler taramanın önceki 60°’lik bölümünü gösterir."
+    },
+    {
+      "short": "Fourier",
+      "title": "Kare Dalganın Oluşumu",
+      "mode": "Zaman alanı",
+      "label": "Tek harmonik sayısı",
+      "context": "Temel frekans 1 kHz",
+      "desc": "1 kHz’lik temel sinyale tek sayılı harmonikler eklendikçe dalga kare biçimine yaklaşır. Terim sayısı arttığında kenarlar keskinleşir. Sıçrama noktalarının yakınında küçük bir aşım kalır. Toplam k = 1, 3, …, 2N − 1 değerlerini kapsar."
+    },
+    {
+      "short": "RC Devresi",
+      "title": "Kondansatörün Dolması",
+      "mode": "Basamak yanıtı",
+      "label": "Kapasitans",
+      "context": "Giriş 1 V  /  R = 10 kΩ",
+      "desc": "1 V’luk basamak gerilimi, başlangıçta yüksüz olan kondansatörü 10 kΩ’luk direnç üzerinden şarj eder. Bir zaman sabiti (τ = RC) sonunda gerilim son değerinin yaklaşık %63,2’sine ulaşır. Kapasitans arttıkça kondansatör daha yavaş dolar."
+    },
+    {
+      "short": "Faraday",
+      "title": "Dönen Bobinde Gerilim",
+      "mode": "İndüksiyon gerilimi",
+      "label": "Dönme hızı",
+      "context": "100 sarım  /  0,1 T",
+      "desc": "Yüzey alanı 20 cm² olan 100 sarımlı bir bobin, 0,1 T büyüklüğünde düzgün bir manyetik alanda döner. Her sarımdan geçen manyetik akı BA cos(ωt) ile değişir. Dönme hızı iki katına çıktığında hem frekans hem de açık devre geriliminin tepe değeri iki katına çıkar."
+    }
+  ],
+  "practiceIntro": "Karabük Üniversitesi’ndeki ders ve laboratuvar çalışmalarım üç alanda yoğunlaşıyor.",
+  "skills": [
+    {
+      "title": "Devreler ve Ölçüm",
+      "body": "Analog ve dijital devreleri simüle ediyor, laboratuvarda osiloskop ve sinyal jeneratörü ile devrelerin davranışını inceliyorum.",
+      "tools": "LTspice, Proteus, ölçüm cihazları"
+    },
+    {
+      "title": "Gömülü Sistemler",
+      "body": "Mikroişlemci mimarisi üzerine çalışıyor, C ve 8 bit assembly ile donanım seviyesinde kod yazıyorum. Mikrodenetleyiciler ve sensör arayüzleriyle ilgileniyorum.",
+      "tools": "C, C++, 8 bit assembly"
+    },
+    {
+      "title": "Sinyal ve Kontrol",
+      "body": "Sinyal ve kontrol sistemlerini MATLAB ile modelliyorum. Elektrik makineleri dersinde enerji dönüşümünü ve motorların çalışma ilkelerini inceliyorum.",
+      "tools": "MATLAB, Python, matematiksel modelleme"
+    }
+  ],
+  "programmingLabel": "Programlama Dilleri",
+  "assembly": "8 bit assembly",
+  "profileHeading": "Eğitim ve Sertifika",
+  "education": "Lisans",
+  "educationName": "Karabük Üniversitesi",
+  "discipline": "Elektrik-Elektronik Mühendisliği",
+  "dates": "Eylül 2023 – devam ediyor",
+  "educationText": "Eğitim dili %100 İngilizce olan lisans programında son sınıf öğrencisiyim. Analog ve dijital elektronik, mikroişlemciler, sinyal işleme, kontrol sistemleri ve elektrik makineleri üzerine dersler aldım.",
+  "training": "Teknik Eğitim",
+  "trainingTitle": "Uludoğan ve KARSAV",
+  "trainingText": "Uludoğan Savunma Sanayii Teknoloji Şirketi ve Karabük Üniversitesi Savunma Teknolojileri Kulübü (KARSAV) iş birliğiyle düzenlenen eğitim programının sonundaki sınavı geçerek sertifika aldım.",
+  "languageLabel": "Yabancı Diller",
+  "languageText": "İngilizce, B2 seviye sertifikası. Almanca, A1.",
+  "moreTools": "Diğer Teknik Beceriler",
+  "moreToolsText": "AutoCAD, temel PCB okuryazarlığı, sensör ve entegre devre uygulamaları.",
+  "alt": "Lacivert takım elbiseli Kursat Kaya",
+  "caption": "Karabük Üniversitesi, Türkiye",
+  "contactHeading": "İş Fırsatları için İletişim",
+  "contactText": "Gömülü sistemler, elektronik tasarım ve donanım testi alanlarındaki iş fırsatları için bana e-posta ile ulaşabilirsiniz. Özellikle savunma elektroniğiyle ilgileniyorum.",
+  "references": "Referanslar talep üzerine paylaşılabilir.",
+  "profilesLabel": "Profesyonel profiller",
+  "back": "Başa dön",
+  "cvTitle": "Özgeçmiş",
+  "cvAbout": "Hakkımda",
+  "noPage": "Sayfa bulunamadı",
+  "home": "Ana sayfaya dön"
+}
